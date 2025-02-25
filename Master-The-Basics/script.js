@@ -45,4 +45,15 @@ console.log("Value of q: ", q); // q used the value of p after incrementing it
 // Question
 let i = 11;
 i = i++ + ++i;
-console.log("Value of i: ", i); // 11 + 13 = 24
+// console.log("Value of i: ", i); // 11 + 13 = 24
+
+let m = 11, n = 22;
+let o = m + n + m++ + n++ + ++m + ++n;
+
+console.log("Value of c: ", o); // 11 + 22 + 11 + 22 + 13 + 24 = 103
+console.log("Value of m: ", m); // 13
+console.log("Value of n: ", n); // 24
+
+let g = true;   // true is equal to 1
+g++;
+console.log("Value of g: ", g); // 2
