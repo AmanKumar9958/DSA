@@ -2,7 +2,8 @@
 A in depth guide of DSA from basics to advanced with JavaScript
 
 ## 📖 Table of Contents
-- [Basics] (Master the Basics)
+- Basics
+- Conditionals
 
 
 ## 📅 Timeline
