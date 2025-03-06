@@ -1,12 +1,13 @@
 # 🏆 DSA (Data Structures and Algorithms)
-A in depth guide of DSA from basics to advanced with JavaScript
+A in depth guide of DSA from basics to advanced with C++
 
 ## 📖 Table of Contents
-- [Basics] (Master the Basics)
+- Introduction and Flowchart (5-03-25)
+- First Program and Basics (6-03-25)
 
 
 ## 📅 Timeline
-- **Started on:** 25 Feb 2025
+- **Started on:** 5 March 2025
 - **Expected to end:** 25 May 2025
 - **Ended on:** 
 
