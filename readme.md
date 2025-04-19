@@ -2,14 +2,13 @@
 A in depth guide of DSA from basics to advanced with C++
 
 ## 📖 Table of Contents
-- Introduction and Flowchart (5-03-25)
-- First Program and Basics (6-03-25)
+- Intro to Programming
 
 ## 📅 Timeline
-- **Started on:** 5 March 2025
-- **Expected to end:** 25 May 2025
+- **Started on:** 19 April 2025
+- **Expected to end:** 19 October 2025
 - **Ended on:** 
 
 ## 🙌 Acknowledgment
 Special thanks to:
-- [Love Babbar](https://www.youtube.com/@CodeHelp)
+- [Coder Army](https://www.youtube.com/@CoderArmy9)
