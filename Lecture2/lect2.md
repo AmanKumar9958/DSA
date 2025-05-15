@@ -1,0 +1,1 @@
+In this lecture we have studied about flow charts and pseudo code.
