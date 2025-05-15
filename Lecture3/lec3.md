@@ -1,0 +1,1 @@
+In this lecture we will study how to write out first C++ code
