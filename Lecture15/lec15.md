@@ -1,0 +1,1 @@
+In this lecture we will solve more LeetCode question
