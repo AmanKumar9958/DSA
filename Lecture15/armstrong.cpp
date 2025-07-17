@@ -1,48 +1,46 @@
 #include<iostream>
-#include <math.h>
 using namespace std;
+#include<cmath> // For pow function
 
-// function to calculate the number of digits in a number
-int digits(int n){
+// count digit function
+int countDigits(int num){
+    if(num == 0) return 1; // Special case for 0
     int count = 0;
-    while (n > 0){
-        count++;
-        n /= 10; // Remove the last digit
-    }
-    return count; // Return the count of digits
-}
-
-// function to check if a number is an Armstrong number
-bool Armstrong(int n, int digits){
-    int num = n, ans = 0, rem;
-
-    while(num > 0){
-        rem = num % 10; // Get the last digit
-        ans += pow(rem, digits); // Raise the digit to the power of the number of digits
+    while (num != 0){
+        count++;    // Increment count for each digit
         num /= 10; // Remove the last digit
     }
+    return count;
+}
 
-    if(ans == n){
+// Armstrong number check function
+bool ArmstrongCheck(int num, int totalDigits){
+    int originalNum = num;
+    int ans = 0;
+    while(originalNum){
+        int rem = originalNum % 10; // Get the last digit
+        originalNum /= 10; // Remove the last digit
+        ans += pow(rem, totalDigits); // Add the power of the digit to ans
+    }
+    if(ans == num){
         return true; // The number is an Armstrong number
     } else {
         return false; // The number is not an Armstrong number
     }
 }
 
-
 int main(){
-    int n;
+    int num;
     cout << "Enter a number: ";
-    cin >> n;
+    cin >> num;
 
-    // function to calculate the number of digits
-    int d = digits(n);
+    int totalDigits = countDigits(num);
+    cout << "Total number of digits in " << num << " is: " << totalDigits << endl;
 
-    // function to check if the number is an Armstrong number
-    if (Armstrong(n, d)) {
-        cout << n << " is an Armstrong number." << endl;
+    if(ArmstrongCheck(num, totalDigits)){
+        cout << num << " is an Armstrong number." << endl;
     } else {
-        cout << n << " is not an Armstrong number." << endl;
+        cout << num << " is not an Armstrong number." << endl;
     }
 
     return 0;
