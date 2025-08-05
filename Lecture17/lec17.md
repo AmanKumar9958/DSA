@@ -1,0 +1,1 @@
+In this lecture we will learn more about array by solving some array problems like searching an element

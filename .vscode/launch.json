@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Documents/Programming/DSA/Lecture_2",
-      "program": "d:/Documents/Programming/DSA/Lecture_2/build/Debug/outDebug",
+      "cwd": "d:/Documents/Programming/DSA/Lecture17",
+      "program": "d:/Documents/Programming/DSA/Lecture17/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
