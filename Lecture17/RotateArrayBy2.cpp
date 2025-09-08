@@ -20,7 +20,7 @@ int main(){
     int tempS = arr[n-2];    // storing second last element
     
     for(int i = n-3; i >= 0; i--){
-        arr[i+2] = arr[i];
+        arr[i+2] = arr[i];  // value shifting
     }
     arr[1] =  temp;
     arr[0] =  tempS;

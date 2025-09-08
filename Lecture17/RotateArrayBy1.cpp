@@ -19,7 +19,7 @@ int main(){
     int temp = arr[n-1];
     
     for(int i = n-2; i >= 0; i--){
-        arr[i+1] = arr[i];
+        arr[i+1] = arr[i];          // value shifting
         // arr[i] = arr[i+1];       // doubt
     }
     arr[0] =  temp;
