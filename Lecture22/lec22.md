@@ -1,0 +1,1 @@
+In this lecture we are going to learn about Binary Search
