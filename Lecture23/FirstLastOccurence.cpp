@@ -18,7 +18,7 @@ int main(){
 
     // taking array elements from user
     cout<<"Enter the elements of array: ";
-    for(int i=0; i<sizeOfArray; i++){
+    for(int i=0; i<sizeOfArray; i++){ 
         cin>>arr[i];
     }
 
