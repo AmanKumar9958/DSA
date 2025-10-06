@@ -20,7 +20,7 @@ int main(){
     int start = 0;
     int end = sizeOfArray - 1;
 
-    while(start <= end){
+    while(start < end){
         int sum = arr[start] + arr[end];
         if(sum == target){
             cout<<"Pair found: ("<<arr[start]<<", "<<arr[end]<<")"<<endl;
